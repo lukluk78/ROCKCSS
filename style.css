@@ -1,0 +1,38 @@
+body {
+    background-color: black; 
+    font-family: arial
+}
+h1{
+    text-align: center;
+    background-color: grey;
+    padding: 10px;
+}
+h2{
+    text-align: center;
+    background-color: grey;
+    text-shadow: rgb(0,34,56);
+    padding: 10px;
+    opacity: 50%;
+}
+figure{
+    margin: 0;
+    padding: 0;
+}
+.noticias{
+    background-color: white;
+    display: inline-block;
+}
+.noticias h3{
+    
+    background-color: grey;
+    padding: 5px;
+}
+.mais-informacoes{
+    background-color: grey;
+}
+.noticias > p{
+    background-color: whitesmoke;
+}
+.noticias h3 +p{
+    background-color: turquoise;
+}
